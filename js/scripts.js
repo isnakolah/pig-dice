@@ -6,7 +6,8 @@ totalNumber1 = 0;
 //event.preventDefault();
 
 function Details(firstName, secondName){
-  
+  firstName=this.firstName;
+  secondName=this.secondName
 }
 
 $(document).ready(function(){
