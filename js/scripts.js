@@ -22,7 +22,7 @@ $(document).ready(function(){
       totalNumber1 = 0;
       $('#score1').text(chance1)
       $('#totalScore').text(totalNumber1)
-      $('#rollmoto').text('You rolled a one. It is time for player two to play!').addClass('text-dark text-centre jumbotron')
+      $('#rollmoto').text('You rolled a one. It is time for player two to play!').addClass('text-dark text-centre jumbotron alert-danger')
       $('#one').hide(100);
       player1 += totalNumber1;
       $('#player-1-total').text(player1)
@@ -36,5 +36,7 @@ $(document).ready(function(){
     player1 += totalNumber1;
     $('#one').hide(100);
     $('#player-1-total').text(player1)
+    $('#rollmoto').text('It is time for player two to play.').addClass('text-dark text-centre jumbotron ')
   })
 })
+
