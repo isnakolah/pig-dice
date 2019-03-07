@@ -40,7 +40,7 @@ $(document).ready(function(){
   })
   $('#hold1').click(function(){
     player1 += totalNumber1;
-    $('#one').hide(100);
+    //$('#one').hide(100);
     $('#two').show(100);
     $('#player-1-total').text(player1)
     $('#rollmoto').text('It is time for player two to play.').addClass('text-dark text-centre jumbotron alert-info').removeClass('alert-danger')
