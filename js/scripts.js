@@ -62,7 +62,7 @@ $(document).ready(function(){
     }else {
       $('#score2').text(chance2)
       totalNumber2 += chance2 ;
-      //$('#totalScore2').text(totalNumber2)
+      $('#totalScore2').text(totalNumber2)
     }
   })
   $('#hold2').click(function(){
