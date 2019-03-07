@@ -58,7 +58,7 @@ $(document).ready(function(){
       $('#two').hide(100);
       $('#one').show(100)
       player2 += totalNumber2;
-    //  $('#player-2-total').text(player2)
+      $('#player-2-total').text(player2)
     }else {
       $('#score2').text(chance2)
       totalNumber2 += chance2 ;
