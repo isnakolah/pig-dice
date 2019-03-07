@@ -14,7 +14,7 @@ The winner will not be displayed, working on it.
 * jQuery
 * Bootstrap
 ## Support and contact details
-Incase you want to reach me you 
+Incase you want to reach me, you can email me at nakolahddaniel1@gmail,com
 ### License
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-Copyright (c) {year} **{List of contributors or company name}**
+*MIT Licence*
+Copyright (c) 2019 **Daniel Nakolah**
